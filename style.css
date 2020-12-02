@@ -1,0 +1,295 @@
+
+        /*CSS Reset*/
+        body{
+            margin:0px;
+            padding:0px;
+            
+          /*  background: url('bg3.jpg' )  no-repeat center fixed;*/
+       
+          background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+        
+            background-position: center;
+  
+            background-size: cover; 
+          font-family: sans-serif;
+           
+        padding: 70px 30px;;
+        }
+        .large-header{
+          position: relative;
+          width: 100%;
+          background: #111;
+          overflow: hidden;
+          background-size: cover;
+          background-position: center center;
+          z-index: 1;
+        }
+    
+        .demo .large-header{
+          background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+        }
+    
+        .main-title{
+          position: absolute;
+          margin: 0;
+          padding: 0;
+          color: #f9f1e9;
+          text-align: center;
+          top:50%;
+          left: 50%;
+          -webkit-transform: translate3d(-50%,-50%,0);
+          transform: translate(-50%,-50%,0);
+        }
+    
+        .demo .main-title{
+          text-transform: uppercase;
+          font-size: 4.2em;
+          letter-spacing: 0.1em;
+        }
+    
+        .main-title .thin{
+          font-weight: 200;
+        }
+    
+        @media only screen and (max-width: 768px){
+          .demo .main-title{
+            font-size: 3em;
+          }
+        }
+        .loginbox{
+          width: 320px;
+          height: 420px;
+          background-color: rgba(30, 11, 65, 0.397);
+
+          top:50%;
+          left:50%;
+          position: absolute;
+          transform: translate(-50%,-50%);
+                
+
+   
+}
+.flip1-card {
+  background-color: red);
+ 
+  perspective: 4000px; /* Remove this if you don't want the 3D effect */
+}
+.flip1-card-inner {
+
+  transition: transform .6s;
+  transform-style: preserve-3d;
+}
+.flip1-card:hover .flip1-card-inner {
+  transform: rotateY(360deg);
+}
+
+/* Position the front and back side */
+.flip1-card-front, .flip-card-back {
+
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+
+/* Style the back side */
+.flip1-card-back {
+
+  transform: rotateY(360deg);
+  
+}
+<!    .loginbox   .top{
+          width:50%;
+      
+            filter: invert(100%);
+        }>
+.avtar{position: relative;
+  text-align: center;
+      filter: blur(8px);
+  -webkit-filter: blur(2px);
+  
+  
+    }
+      .centered {
+      
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+          h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size:22px ;
+
+          }
+          
+ .loginbox h1{color:rgba(250, 244, 166, 0.699);}
+    .loginbox p{ 
+      color:rgba(250, 244, 166, 0.699);
+
+      margin:0;
+     
+      background:#00a0fd1f;
+      padding: 0;
+      font-weight: bold;
+    }
+    .loginbox input{
+      color:rgba(255, 255, 255, 0.699);
+      width: 98.9%;
+      margin-bottom: 20px;
+      background:#f9f9fa3b;
+    }
+    .loginbox input[type="text"],input[type="password"]
+    {
+      border:none;
+      border-bottom: 1px solid #fff;
+      outline:none;
+      height: 20px;
+    }
+    .loginbox input[type="Submit"]
+    {
+      border: none;
+      outline: none;
+    
+      height: 50px;
+      background:#fb2525bb;
+      color:#fff;
+      font-size:18px;
+      border-radius: 20px;
+    }
+    .loginbox input[type="Submit"]:hover
+    {
+      cursor: pointer;
+      background: #ffc107c2;
+      color:#000;
+    }
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color:rgba(255, 255, 255, 0.74);
+}
+.flip-card {
+  background-color: transparent);
+ 
+  perspective: 3000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform .6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(360deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+ 
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+
+/* Style the back side */
+.flip-card-back {
+
+  transform: rotateY(180deg);
+  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b589875;
+  color: white;
+  border-radius: 30%
+}
+.fa-facebook:hover{
+  background: #122d66;
+  color: rgb(250, 234, 14);
+  border-radius: 50%;
+  transform: rotateX(5deg);
+}
+
+/* Twitter */
+.fa-twitter {
+
+  color: white;
+  
+  background: #55acee96;
+
+  border-radius: 30%;
+
+}
+.fa-twitter:hover {
+
+  color:rgb(250, 234, 14);
+  
+  background: #248ddd;
+
+  border-radius: 50%;
+  transform: rotateX(10deg);
+}
+.fa-google  {
+
+  color: white;
+  
+  background: rgba(211, 30, 30, 0.671);
+
+  border-radius: 30%
+
+  
+}
+.fa-google:hover {
+
+  color: rgb(250, 234, 14);
+  
+  background: rgb(190, 0, 0);
+
+
+  border-radius: 50%
+}
+
+.loginbox a:hover{
+
+color:#ffc107;}
+
+.AV
+{
+  width: 500px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  left:calc(1% - 100px);
+  filter: invert(100%);
+}
